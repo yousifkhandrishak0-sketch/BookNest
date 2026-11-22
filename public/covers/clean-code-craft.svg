@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F3F6"/>
+      <stop offset="100%" stop-color="#E3E7EE"/>
+    </linearGradient>
+    <linearGradient id="cover1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1E36"/>
+      <stop offset="100%" stop-color="#1A2F52"/>
+    </linearGradient>
+    <filter id="shadow1" x="-15%" y="-10%" width="140%" height="130%">
+      <feDropShadow dx="16" dy="24" stdDeviation="20" flood-color="#0F1E36" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg1)"/>
+  <g filter="url(#shadow1)" transform="translate(105, 85)">
+    <rect x="0" y="0" width="390" height="610" rx="6" fill="#0A1526"/>
+    <rect x="24" y="0" width="366" height="610" rx="4" fill="url(#cover1)"/>
+    <rect x="24" y="0" width="6" height="610" fill="#08111F" opacity="0.5"/>
+    <rect x="52" y="52" width="310" height="506" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5"/>
+    <text x="207" y="130" text-anchor="middle" fill="#E85D22" font-family="Georgia, serif" font-size="14" letter-spacing="4" font-weight="bold">SOFTWARE ENGINEERING</text>
+    <text x="207" y="210" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, serif" font-size="44" font-weight="bold">CLEAN</text>
+    <text x="207" y="262" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, serif" font-size="44" font-weight="bold">CODE</text>
+    <text x="207" y="302" text-anchor="middle" fill="#CBD5E1" font-family="sans-serif" font-size="15" letter-spacing="1">Maintainable Software Craft</text>
+    <g transform="translate(127, 345)">
+      <rect x="0" y="0" width="160" height="120" rx="4" fill="#FFFFFF" fill-opacity="0.06" stroke="#E85D22" stroke-width="2"/>
+      <text x="80" y="72" text-anchor="middle" fill="#E85D22" font-family="monospace" font-size="48" font-weight="bold">{ }</text>
+      <line x1="28" y1="26" x2="132" y2="26" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+      <line x1="28" y1="98" x2="132" y2="98" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+    </g>
+    <text x="207" y="530" text-anchor="middle" fill="#F8FAFC" font-family="sans-serif" font-size="17" font-weight="bold" letter-spacing="2">ROBERT C. MARTIN</text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6F3EC"/>
+      <stop offset="100%" stop-color="#EAE4D7"/>
+    </linearGradient>
+    <filter id="shadow2" x="-15%" y="-10%" width="140%" height="130%">
+      <feDropShadow dx="16" dy="24" stdDeviation="20" flood-color="#1E293B" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg2)"/>
+  <g filter="url(#shadow2)" transform="translate(105, 85)">
+    <rect x="0" y="0" width="390" height="610" rx="6" fill="#0D3B32"/>
+    <rect x="22" y="0" width="368" height="610" rx="4" fill="#FAF7F0"/>
+    <rect x="22" y="0" width="12" height="610" fill="#0F1E36"/>
+    <rect x="54" y="42" width="308" height="526" fill="none" stroke="#C59B42" stroke-width="2"/>
+    <rect x="62" y="50" width="292" height="510" fill="none" stroke="#0F1E36" stroke-opacity="0.2" stroke-width="1"/>
+    <path d="M 145 270 C 145 190, 271 190, 271 270 L 271 335 L 145 335 Z" fill="none" stroke="#C59B42" stroke-width="2.5"/>
+    <circle cx="208" cy="245" r="24" fill="none" stroke="#0F1E36" stroke-width="1.5"/>
+    <polygon points="208,225 214,239 228,245 214,251 208,265 202,251 188,245 202,239" fill="#C59B42"/>
+    <text x="208" y="120" text-anchor="middle" fill="#0F1E36" font-family="Georgia, serif" font-size="28" font-weight="bold">IN THE FOOTSTEPS</text>
+    <text x="208" y="156" text-anchor="middle" fill="#0F1E36" font-family="Georgia, serif" font-size="24">OF THE PROPHET</text>
+    <text x="208" y="385" text-anchor="middle" fill="#526075" font-family="sans-serif" font-size="14" letter-spacing="2">LESSONS FROM HIS LIFE</text>
+    <line x1="148" y1="420" x2="268" y2="420" stroke="#C59B42" stroke-width="1.5"/>
+    <text x="208" y="495" text-anchor="middle" fill="#0F1E36" font-family="Georgia, serif" font-size="18" font-weight="bold" letter-spacing="2">TARIQ RAMADAN</text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F7FA"/>
+      <stop offset="100%" stop-color="#E6EBF2"/>
+    </linearGradient>
+    <filter id="shadow3" x="-15%" y="-10%" width="140%" height="130%">
+      <feDropShadow dx="16" dy="24" stdDeviation="20" flood-color="#0F1E36" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg3)"/>
+  <g filter="url(#shadow3)" transform="translate(105, 85)">
+    <rect x="0" y="0" width="390" height="610" rx="6" fill="#091322"/>
+    <rect x="24" y="0" width="366" height="610" rx="4" fill="#10223E"/>
+    <polygon points="207,185 307,355 107,355" fill="none" stroke="#E85D22" stroke-width="4"/>
+    <polygon points="207,225 275,340 139,340" fill="#E85D22" fill-opacity="0.18" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.5"/>
+    <circle cx="207" cy="296" r="14" fill="#E85D22"/>
+    <text x="207" y="105" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="44" font-weight="bold" letter-spacing="3">DEEP</text>
+    <text x="207" y="152" text-anchor="middle" fill="#E85D22" font-family="sans-serif" font-size="44" font-weight="bold" letter-spacing="3">WORK</text>
+    <text x="207" y="425" text-anchor="middle" fill="#E2E8F0" font-family="Georgia, serif" font-size="16">Rules for Focused Success</text>
+    <text x="207" y="450" text-anchor="middle" fill="#CBD5E1" font-family="Georgia, serif" font-size="15">in a Distracted World</text>
+    <text x="207" y="535" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="17" font-weight="bold" letter-spacing="3">CAL NEWPORT</text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "BookNest – Online Book Store",
+  "description": "BookNest is Pakistan's modern online book store offering Computer Science, Programming, Business, Fiction, Islamic, Self-Development, and Academic books in PKR with nationwide delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
